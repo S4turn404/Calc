@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(241, 239, 255);
+}
+
+.calc {
+    width:320px;
+    padding: 20px;
+    border: 16px;
+    background-color:rgb(221, 208, 255) ;
+    box-shadow: 0 5px 15px rgba(rgb(255, 3, 3), rgb(0, 255, 0), rgb(231, 231, 255), alpha);
+}
+
+#display {
+    height: 60px;
+    width:100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius:10px;
+    border-color:rgb(183, 173, 247) ;
+
+}
+
