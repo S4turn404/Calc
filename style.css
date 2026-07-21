@@ -9,7 +9,7 @@ body {
 .calc {
     width:320px;
     padding: 20px;
-    border: 16px;
+    border-radius: 16px;
     background-color:rgb(221, 208, 255) ;
     box-shadow: 0 5px 15px rgba(rgb(255, 3, 3), rgb(0, 255, 0), rgb(231, 231, 255), alpha);
 }
@@ -20,7 +20,38 @@ body {
     padding: 10px;
     margin-bottom: 15px;
     border-radius:10px;
-    border-color:rgb(183, 173, 247) ;
+    border:none;
+    text-align: right;
+    font-size: 2rem;
+}
+
+.buttons {
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
 
 }
 
+button {
+    height:50px;
+    font-size: 1.2rem;
+    color:rgb(180, 169, 250);
+    border:none;
+    background-color:white ;
+  transition:all 0.3s ease;
+
+}
+
+
+button:active {
+    transform: scale(0.95)
+}
+
+button:hover {
+background:rgb(172, 255, 251);
+transform:translateY(-3px)scale(1.05);
+}
+
+*:focus {
+    outline: none;
+}
